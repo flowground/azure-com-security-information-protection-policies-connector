@@ -1,0 +1,13 @@
+{
+    "type": "object",
+    "properties": {
+        "scope": {
+            "required": true,
+            "type": "string"
+        },
+        "api_version": {
+            "required": true,
+            "type": "string"
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "type": "object",
+    "properties": {
+        "scope": {
+            "required": true,
+            "type": "string"
+        },
+        "informationProtectionPolicyName": {
+            "required": true,
+            "type": "string",
+            "enum": [
+                "effective",
+                "custom"
+            ]
+        },
+        "api_version": {
+            "required": true,
+            "type": "string"
+        }
+    }
+}
